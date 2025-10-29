@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": { "start": "node index.js" },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fs-extra": "^11.2.0",
     "morgan": "^1.10.0",
-    "cors": "^2.8.5"
+    "pretty-ms": "^9.3.0"
   }
 }
